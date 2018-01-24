@@ -31,6 +31,8 @@ rake import:product_inventory['./products.csv, ./inventory.csv']
 
 * There is almost zero validation or checks. Failing to provide a file or providing an invalid file, will crash the import. More on this below.
 
+* I suffered formatting issues with the import files. I had to work on them to get them to be true .csv files. I am not sure why. So, in order to run a successful import, you'll need to download the files at the root of this repo and use them for the import. 
+
 
 
 
