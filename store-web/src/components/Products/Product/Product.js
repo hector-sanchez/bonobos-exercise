@@ -5,8 +5,8 @@ import InventoryTable from '../../Inventory/InventoryControls/InventoryTable';
 
 const product = (props) => {
   let inventoryButton = props.showInventory ?
-          (<p className="btn btn-primary" onClick={props.toggleInventoryClick} >Hide Inventory</p>) :
-            (<p className="btn btn-primary" onClick={props.toggleInventoryClick} >Show Inventory</p>)
+          (<p className="btn btn-secondary" onClick={props.toggleInventoryClick} >Hide Inventory <span className="badge badge-light">{props.inventory.length}</span></p>) :
+            (<p className="btn btn-primary" onClick={props.toggleInventoryClick} >Show Inventory <span className="badge badge-light">{props.inventory.length}</span></p>)
 
   let inventory = null;
 
