@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import Layout from './components/Layout/Layout';
+import Cockpit from './containers/Cockpit/Cockpit';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Layout>
-          <p>Something is showing here</p>
-        </Layout>
-      </div>
+      <Layout>
+        <Cockpit />
+      </Layout>
     );
   }
 }
