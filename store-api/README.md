@@ -6,11 +6,13 @@ The documentation covers the following:
 
 1. Data Import
 
-2. API Endpoint
+2. Areas of Importance
 
-3. Points of Pride
+3. API Endpoint
 
-4. Areas to Improve
+4. Points of Pride
+
+5. Areas to Improve
 
 
 
@@ -25,7 +27,7 @@ To run the import, run the following command in the terminal from the root of th
 rake import:product_inventory['./products.csv, ./inventory.csv']
 ```
 
-##### Areas of Notice
+#### Areas of Importance
 
 * If a product or inventory item already exists in the database, all attributes with the exception of the ID are updated fr the product; for the inventory only the count is updated.
 
